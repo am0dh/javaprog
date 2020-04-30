@@ -38,6 +38,7 @@ public class MainClass {
 
             }
         }
+        //Converting ArrayList type arr into Array as it makes ooperation easier to do
         int[] array = new int[arr.size()];
         for (int p = 0; p < array.length; p++) {
             array[p] = arr.get(p);
